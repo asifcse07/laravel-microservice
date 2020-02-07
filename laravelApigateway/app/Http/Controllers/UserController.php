@@ -76,4 +76,18 @@ class UserController extends Controller
         $dataR['access_token'] = $access_token;
         return $this->successResponse($dataR, Response::HTTP_CREATED);
     }
+
+    public function logout(Request $request)
+    {
+        $accessToken = \Auth::user()->token();
+        \DB::table('oauth_refresh_tokens')
+            ->where('access_token_id', $accessToken->id)
+            ->update([
+                'revoked' => true
+            ]);
+
+        $accessToken->revoke();
+        $data['message'] = 'Logout successfully';
+        return $this->successResponse($data, Response::HTTP_CREATED);
+    }
 }
