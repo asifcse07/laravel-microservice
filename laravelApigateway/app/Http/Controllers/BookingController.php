@@ -32,7 +32,7 @@ class BookingController extends Controller
     }
 
     public function store(Request $request){
-//        $this->authorService->obtainAuthor($request->author_id);
+        $request->request->add(['customer_id' => \Auth::user()->id]);
         return $this->successResponse($this->bookingService->createBooking($request->all(), Response::HTTP_CREATED));
     }
 

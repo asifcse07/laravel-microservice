@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8319f330-c984-4c25-8e7a-9ccac2a8c241" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BookingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookingController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/BookingService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/BookingService.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravelBooking/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravelBooking/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +161,8 @@
       <updated>1580984327369</updated>
       <workItem from="1580984328751" duration="9072000" />
       <workItem from="1580994373373" duration="2684000" />
-      <workItem from="1581073600451" duration="129000" />
+      <workItem from="1581073600451" duration="728000" />
+      <workItem from="1581090708127" duration="75000" />
     </task>
     <servers />
   </component>
@@ -176,6 +178,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="120" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580988283762" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1581076644184">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581076644184" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1581076644184">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581076644184" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1581076644184">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581076644184" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1581076644184">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1581076644184" />
     <state x="339" y="17" width="670" height="676" key="search.everywhere.popup" timestamp="1580997899146">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

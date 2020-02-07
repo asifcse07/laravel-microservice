@@ -19,7 +19,7 @@ use Illuminate\Http\Request;
 
 Route::group(['prefix' => '/v1','middleware' => ['api_test']], function() {
 
-    Route::post('/store', array('as'=>'Save', 'uses'=>'BookingController@store'));
+    Route::post('/booking', array('as'=>'Save', 'uses'=>'BookingController@store'));
     Route::get('/booking', array('as'=>'Save', 'uses'=>'BookingController@index'));
 
 

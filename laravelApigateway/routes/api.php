@@ -27,12 +27,12 @@ Route::group(['prefix' => '/v1'], function() {
 
 Route::group(['prefix' => '/v1','middleware' => ['auth:api']], function() {
 
-    Route::post('/store', array('as'=>'Save', 'uses'=>'BookingController@store'));
+    Route::post('/booking', array('as'=>'Save', 'uses'=>'BookingController@store'));
     Route::get('/booking', array('as'=>'show', 'uses'=>'BookingController@index'));
 
     Route::post('/store', array('as'=>'Save', 'uses'=>'TransactionController@store'));
     Route::get('/transactions', array('as'=>'show', 'uses'=>'TransactionController@index'));
-    
+
     Route::post('/logout', array('as'=>'Logout', 'uses'=>'UserController@logout'));
 
 });

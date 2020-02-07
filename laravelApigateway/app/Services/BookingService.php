@@ -21,7 +21,7 @@ Class BookingService{
 	}
 
 	public function createBooking($data){
-		return $this->performRequest('POST', '/api/v1/store', $data);
+		return $this->performRequest('POST', '/api/v1/booking', $data);
 	}
 
 //	public function obtainBookings($author){
