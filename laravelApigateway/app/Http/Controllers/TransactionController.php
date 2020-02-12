@@ -34,6 +34,7 @@ class TransactionController extends Controller
     }
 
     public function store(Request $request){
+        $request->request->add(['customer_id' => \Auth::user()->id]);
         return $this->successResponse($this->transactionService->createTransaction($request->all(), Response::HTTP_CREATED));
     }
 
