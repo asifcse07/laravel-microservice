@@ -34,6 +34,9 @@ Route::group(['prefix' => '/v1','middleware' => ['auth:api']], function() {
     Route::post('/transaction', array('as'=>'Save', 'uses'=>'TransactionController@store'));
     Route::get('/transactions', array('as'=>'show', 'uses'=>'TransactionController@index'));
 
+    Route::post('/room', array('as'=>'Save', 'uses'=>'RoomController@store'));
+    Route::get('/rooms', array('as'=>'show', 'uses'=>'RoomController@index'));
+
     Route::post('/logout', array('as'=>'Logout', 'uses'=>'UserController@logout'));
 
 

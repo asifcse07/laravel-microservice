@@ -30,17 +30,4 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
-    'bookings' => [
-        'base_uri' => env('BOOKING_SERVICE_BASE_URL'),
-        'secret' => env('BOOKING_SERVICE_SECRET'),
-    ],
-    'transaction' => [
-        'base_uri' => env('TRANSACTION_SERVICE_BASE_URL'),
-        'secret' => env('TRANSACTION_SERVICE_SECRET'),
-    ],
-    'room' => [
-        'base_uri' => env('ROOM_SERVICE_BASE_URL'),
-        'secret' => env('ROOM_SERVICE_SECRET'),
-    ],
-
 ];
